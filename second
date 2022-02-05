@@ -1,0 +1,22 @@
+
+public class second {
+	int id;
+	String name;
+	second(int i, String n)
+	{
+		id = i;
+		name = n;
+	}
+      public void display()
+      {
+    	  System.out.println("ID is:" +id+" name is: " +name);
+      }
+	public static void main(String[] args) {
+		second obj= new second(123, "prachi");
+		second obj2= new second(111,"vivan");
+		obj.display();
+		obj2.display();
+
+	}
+
+}
